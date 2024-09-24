@@ -1,0 +1,1 @@
+# plugins-disable-wp-registration-page
