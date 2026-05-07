@@ -1,7 +1,7 @@
 === Disable WP Registration Page ===
 Contributors: maurisrx
 Donate link:
-Tags: registration, redirect, disable registration, spam prevention, spam, bot,
+Tags: registration, redirect, disable registration, spam prevention, spam
 Requires at least: 3.0
 Tested up to: 6.9
 Stable tag: 1.0.3
