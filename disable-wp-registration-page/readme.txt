@@ -1,7 +1,7 @@
 === Disable WP Registration Page ===
 Contributors: maurisrx
 Donate link:
-Tags: registration, redirect, disable registration, spam prevention, spam, bot,
+Tags: registration, redirect, disable registration, spam prevention, spam
 Requires at least: 3.0
 Tested up to: 6.9
 Stable tag: 1.0.3
@@ -48,37 +48,37 @@ This plugin disables default WP registration page by redirecting users who acces
 
 You can add the following PHP code snippets to your active theme's `functions.php` or a snippet plugin:
 
-```php
+`
 add_filter(
     'dwprp_registration_link',
     function() {
         return '<span class="dwprp-registration-link">Your custom registration link text</span>'
     }
 );
-```
+`
 
 = How can I change the redirect destination URL which defaults to the login page? =
 
 You can add the following PHP code snippets to your active theme's `functions.php` or a snippet plugin:
 
-```php
+`
 add_filter(
     'dwprp_registration_redirect_url',
     function() {
         return site_url( '/your-custom-registration-page' );
     }
 );
-```
+`
 
 = How can I hide the registration link and text entirely on the login page? =
 
 You can add the following CSS to your active theme's `style.css` or a snippet plugin:
 
-```css
+`
 .dwprp-registration-link {
     display: none;
 }
-```
+`
 
 == Changelog ==
 
